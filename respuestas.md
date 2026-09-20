@@ -56,15 +56,28 @@ Enunciado: Logística necesita detectar qué referencias están en riesgo de rot
 Consulta:
 
 ```sql
--- por rellenar
+SELECT product_name AS producto,
+units_in_stock AS stock,
+reorder_level AS nivel_reposicion,
+units_on_order AS pedido_a_proveedor,
+CASE 
+    WHEN (units_in_stock = 0) THEN 'CRITICO'
+    ELSE 'AVISO'
+END AS situacion
+FROM products
+WHERE units_in_stock <= reorder_level AND discontinued = 0
+
+
 ```
 Resultado:
+
 
 ![Respuesta3](images/P03.png)
 
 
 
-Comentario: por rellenar
+Comentario: 
+He filtrado en el `WHERE` combinando `units_in_stock <= reorder_level` y `discontinued = 0` para localizar únicamente los artículos activos en riesgo de rotura de inventario. Utilicé una expresión condicional `CASE` para clasificar dinámicamente la columna situacion, asignando 'CRITICO' cuando el stock es exactamente 0 y 'AVISO' en el resto de supuestos. Descarté el uso de agregaciones y uniones porque todos los campos solicitados pertenecen directamente a la tabla `products`.
 
 ## Pregunta 4 — Ficha completa de producto
 Enunciado: Marketing va a rehacer el catálogo impreso y necesita cada producto con su categoría y los datos de contacto de quien lo suministra. Para los productos suministrados por empresas de Italia, Francia o España, muestra el nombre del producto, el nombre de la categoría, el nombre del proveedor, su país y su ciudad. Ordena por país y, dentro de cada país, por nombre de producto.
