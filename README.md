@@ -33,7 +33,7 @@ Sigue estos pasos para levantar la base de datos y replicar el entorno de trabaj
 
 A continuación se muestra el esquema relacional obtenido de la base de datos Northwind:
 
-![Diagrama ER Northwind](img/diagrama-er.png)
+![Diagrama ER Northwind](images/EDR-diagrama.png)
 
 ---
 
