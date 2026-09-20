@@ -85,7 +85,22 @@ Enunciado: Marketing va a rehacer el catálogo impreso y necesita cada producto 
 Consulta:
 
 ```sql
--- por rellenar
+SELECT p.product_name AS producto,
+c.category_name AS categoria,
+s.company_name AS proveedor,
+s.country AS pais,
+s.city AS ciudad
+
+FROM products AS p
+
+INNER JOIN suppliers AS s
+ON p.supplier_id = s.supplier_id
+
+INNER JOIN categories AS c 
+ON p.category_id = c.category_id
+
+WHERE s.country IN ('Italy', 'France', 'Spain')
+ORDER BY s.country ASC, p.product_name ASC;
 ```
 Resultado:
 
@@ -93,7 +108,9 @@ Resultado:
 
 
 
-Comentario: por rellenar
+Comentario: 
+
+He utilizado dos `INNER JOIN` para enlazar products con `suppliers` y `categories` mediante sus claves foráneas correspondientes, permitiendo recuperar el nombre de la categoría y los datos del fabricante. Apliqué la cláusula `WHERE s.country IN ('Italy', 'France', 'Spain')` para filtrar los tres mercados requeridos de forma más limpia y legible que encadenar múltiples condiciones con `OR`. Por último, ordené con `ORDER BY s.country ASC, p.product_name ASC` para cumplir con la doble ordenación por país y alfabéticamente por producto.
 
 ## Pregunta 5 — Detalle valorizado de un pedido
 Enunciado: Atención al cliente recibe una reclamación sobre el pedido 10248 y necesita reconstruir la factura línea a línea. Muestra, para ese pedido, el nombre del producto, el precio unitario aplicado, la cantidad, el descuento y el importe final de cada línea. Añade el nombre del cliente y la fecha del pedido.
