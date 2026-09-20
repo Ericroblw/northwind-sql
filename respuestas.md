@@ -23,4 +23,4 @@ ORDER BY unit_price DESC;
 ```
 ![Respuesta1](images/P01.png)
 
-He filtrado por discontinued = 0 al ser un campo numérico que identifica a los productos en catálogo activo, combinándolo con BETWEEN 10 AND 50 para acotar el rango de precios de forma inclusiva. Apliqué un cast a numeric dentro de ROUND() porque en PostgreSQL unit_price es de tipo real y requiere dicha conversión para admitir decimales. Finalmente, ordené por el valor numérico original en sentido descendente para cumplir con la prioridad de mayor a menor precio sin alterar el alias.
+He filtrado por `discontinued = 0` al ser un campo numérico que identifica a los productos en catálogo activo, combinándolo con `BETWEEN 10 AND 50` para acotar el rango de precios de forma inclusiva. Apliqué un cast a numeric dentro de `ROUND()` porque en PostgreSQL `unit_price` es de tipo real y requiere dicha conversión para admitir decimales. Finalmente, ordené por el valor numérico original en sentido descendente para cumplir con la prioridad de mayor a menor precio sin alterar el alias.
