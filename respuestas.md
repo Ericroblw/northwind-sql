@@ -43,7 +43,7 @@ ORDER BY num_clientes DESC
 
 ```
 Resultado:
-
+![Respuesta1](images/P02.png)
 Comentario: por rellenar
 
 ## Pregunta 3 — Alerta de reposición
