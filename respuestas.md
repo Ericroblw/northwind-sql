@@ -47,7 +47,8 @@ Resultado:
 ![Respuesta2](images/P02.png)
 
 
-Comentario: por rellenar
+Comentario: 
+He agrupado por `country` para agregar métricas a nivel de mercado, calculando el total de cuentas mediante `COUNT(customer_id)` y las localidades únicas con `COUNT(DISTINCT city)` para evitar contar ciudades repetidas. Utilicé `HAVING COUNT(customer_id) >= 5 `en lugar de `WHERE` porque el filtro depende del resultado agregado del conteo tras la agrupación. Finalmente, ordené con `ORDER BY num_clientes DESC` para priorizar los mercados con mayor concentración de clientes.
 
 ## Pregunta 3 — Alerta de reposición
 Enunciado: Logística necesita detectar qué referencias están en riesgo de rotura de stock. Localiza los productos activos cuyas unidades en stock sean inferiores o iguales a su nivel de reposición. Muestra el nombre, las unidades en stock, el nivel de reposición, las unidades ya pedidas al proveedor y una columna de texto que indique 'CRÍTICO' cuando el stock sea 0 y 'AVISO' en el resto de casos.
