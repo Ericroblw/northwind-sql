@@ -33,7 +33,14 @@ He filtrado por `discontinued = 0` al ser un campo numérico que identifica a lo
 **Consulta:**
 
 ```sql
--- por rellenar
+SELECT country AS pais
+,COUNT( customer_id) AS num_clientes,
+COUNT(DISTINCT(city)) AS num_ciudades
+FROM customers
+GROUP BY country
+HAVING COUNT((customer_id)) >= 5
+ORDER BY num_clientes DESC
+
 ```
 Resultado:
 
