@@ -44,7 +44,7 @@ ORDER BY num_clientes DESC
 ```
 Resultado:
 
-![Respuesta1](images/P02.png)
+![Respuesta2](images/P02.png)
 
 
 Comentario: por rellenar
@@ -59,7 +59,7 @@ Consulta:
 ```
 Resultado:
 
-![Respuesta1](images/P03.png)
+![Respuesta3](images/P03.png)
 
 
 
@@ -75,7 +75,7 @@ Consulta:
 ```
 Resultado:
 
-![Respuesta1](images/P04.png)
+![Respuesta4](images/P04.png)
 
 
 
@@ -91,7 +91,7 @@ Consulta:
 ```
 Resultado:
 
-![Respuesta1](images/P05.png)
+![Respuesta5](images/P05.png)
 
 
 
@@ -107,7 +107,7 @@ Consulta:
 ```
 Resultado:
 
-![Respuesta1](images/P06.png)
+![Respuesta6](images/P06.png)
 
 
 
@@ -123,7 +123,7 @@ Consulta:
 ```
 Resultado:
 
-![Respuesta1](images/P07.png)
+![Respuesta7](images/P07.png)
 
 
 
@@ -139,7 +139,7 @@ Consulta:
 ```
 Resultado:
 
-![Respuesta1](images/P08.png)
+![Respuesta8](images/P08.png)
 
 
 
@@ -155,7 +155,7 @@ Consulta:
 ```
 Resultado:
 
-![Respuesta1](images/P09.png)
+![Respuesta9](images/P09.png)
 
 
 
@@ -171,7 +171,7 @@ Consulta:
 ```
 Resultado:
 
-![Respuesta1](images/P010.png)
+![Respuesta10](images/P010.png)
 
 
 
@@ -187,7 +187,7 @@ Consulta:
 ```
 Resultado:
 
-![Respuesta1](images/P011.png)
+![Respuesta11](images/P011.png)
 
 
 
@@ -203,7 +203,7 @@ Consulta:
 ```
 Resultado:
 
-![Respuesta1](images/P012.png)
+![Respuesta12](images/P012.png)
 
 
 
@@ -219,7 +219,7 @@ Consulta:
 ```
 Resultado:
 
-![Respuesta1](images/P013.png)
+![Respuesta13](images/P013.png)
 
 Comentario: por rellenar
 
@@ -233,7 +233,7 @@ Consulta:
 ```
 Resultado:
 
-![Respuesta1](images/P014.png)
+![Respuesta14](images/P014.png)
 
 
 
@@ -249,7 +249,7 @@ Consulta:
 ```
 Resultado:
 
-![Respuesta1](images/P015.png)
+![Respuesta15](images/P015.png)
 
 
 
@@ -265,7 +265,7 @@ Consulta:
 ```
 Resultado:
 
-![Respuesta1](images/P016.png)
+![Respuesta16](images/P016.png)
 
 
 
@@ -281,7 +281,7 @@ Consulta:
 ```
 Resultado:
 
-![Respuesta1](images/P017.png)
+![Respuesta17](images/P017.png)
 
 
 
@@ -297,7 +297,7 @@ Consulta:
 ```
 Resultado:
 
-![Respuesta1](images/P018.png)
+![Respuesta18](images/P018.png)
 
 
 
@@ -313,7 +313,7 @@ Consulta:
 ```
 Resultado:
 
-![Respuesta1](images/P019.png)
+![Respuesta19](images/P019.png)
 
 
 
@@ -329,7 +329,7 @@ Consulta:
 ```
 Resultado:
 
-![Respuesta1](images/P020.png)
+![Respuesta20](images/P020.png)
 
 
 
