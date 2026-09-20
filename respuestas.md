@@ -10,4 +10,14 @@ Obtén los productos que **no** están descatalogados y cuyo precio unitario est
 
 > **Pista:** la columna `discontinued` es de tipo `integer`, no booleana. Un producto activo tiene valor 0.
 
+```sql
+-- Catálogo de productos activos con precio entre 10 y 50 euros ordenados por precio descendente
+SELECT 
+    product_name AS producto,
+    ROUND(unit_price::numeric, 2) AS precio
+FROM products
+WHERE discontinued = 0
+  AND unit_price BETWEEN 10 AND 50
+ORDER BY unit_price DESC;
 
+```
