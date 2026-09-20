@@ -1,6 +1,6 @@
 # Práctica: Consultas SQL sobre Base de Datos Northwind
 
-**Autor:** [Tu Nombre Completo]  
+**Autor:** Eric Emmanuel Ramírez Duanca  
 **Repositorio:** [northwind-sql](https://github.com/Ericroblw/northwind-sql)
 
 ---
