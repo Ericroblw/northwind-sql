@@ -21,4 +21,4 @@ WHERE discontinued = 0
 ORDER BY unit_price DESC;
 
 ```
-![Respuesta1](P01.png)
+![Respuesta1](images/P01.png)
