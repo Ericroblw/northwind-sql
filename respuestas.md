@@ -43,7 +43,10 @@ ORDER BY num_clientes DESC
 
 ```
 Resultado:
+
 ![Respuesta1](images/P02.png)
+
+
 Comentario: por rellenar
 
 ## Pregunta 3 — Alerta de reposición
@@ -55,6 +58,10 @@ Consulta:
 -- por rellenar
 ```
 Resultado:
+
+![Respuesta1](images/P03.png)
+
+
 
 Comentario: por rellenar
 
@@ -68,6 +75,10 @@ Consulta:
 ```
 Resultado:
 
+![Respuesta1](images/P04.png)
+
+
+
 Comentario: por rellenar
 
 ## Pregunta 5 — Detalle valorizado de un pedido
@@ -79,6 +90,10 @@ Consulta:
 -- por rellenar
 ```
 Resultado:
+
+![Respuesta1](images/P05.png)
+
+
 
 Comentario: por rellenar
 
@@ -92,6 +107,10 @@ Consulta:
 ```
 Resultado:
 
+![Respuesta1](images/P06.png)
+
+
+
 Comentario: por rellenar
 
 ## Pregunta 7 — Clientes sin actividad comercial
@@ -103,6 +122,10 @@ Consulta:
 -- por rellenar
 ```
 Resultado:
+
+![Respuesta1](images/P07.png)
+
+
 
 Comentario: por rellenar
 
@@ -116,6 +139,10 @@ Consulta:
 ```
 Resultado:
 
+![Respuesta1](images/P08.png)
+
+
+
 Comentario: por rellenar
 
 ## Pregunta 9 — Rejilla de cobertura categoría × año
@@ -127,6 +154,10 @@ Consulta:
 -- por rellenar
 ```
 Resultado:
+
+![Respuesta1](images/P09.png)
+
+
 
 Comentario: por rellenar
 
@@ -140,6 +171,10 @@ Consulta:
 ```
 Resultado:
 
+![Respuesta1](images/P010.png)
+
+
+
 Comentario: por rellenar
 
 ## Pregunta 11 — Directorio unificado de contactos
@@ -151,6 +186,10 @@ Consulta:
 -- por rellenar
 ```
 Resultado:
+
+![Respuesta1](images/P011.png)
+
+
 
 Comentario: por rellenar
 
@@ -164,6 +203,10 @@ Consulta:
 ```
 Resultado:
 
+![Respuesta1](images/P012.png)
+
+
+
 Comentario: por rellenar
 
 ## Pregunta 13 — Clientes que nunca han comprado pescado
@@ -175,6 +218,8 @@ Consulta:
 -- por rellenar
 ```
 Resultado:
+
+![Respuesta1](images/P013.png)
 
 Comentario: por rellenar
 
@@ -188,6 +233,10 @@ Consulta:
 ```
 Resultado:
 
+![Respuesta1](images/P014.png)
+
+
+
 Comentario: por rellenar
 
 ## Pregunta 15 — Ticket medio por cliente
@@ -199,6 +248,10 @@ Consulta:
 -- por rellenar
 ```
 Resultado:
+
+![Respuesta1](images/P015.png)
+
+
 
 Comentario: por rellenar
 
@@ -212,6 +265,10 @@ Consulta:
 ```
 Resultado:
 
+![Respuesta1](images/P016.png)
+
+
+
 Comentario: por rellenar
 
 ## Pregunta 17 — Segmentación ABC de la cartera de clientes
@@ -223,6 +280,10 @@ Consulta:
 -- por rellenar
 ```
 Resultado:
+
+![Respuesta1](images/P017.png)
+
+
 
 Comentario: por rellenar
 
@@ -236,6 +297,10 @@ Consulta:
 ```
 Resultado:
 
+![Respuesta1](images/P018.png)
+
+
+
 Comentario: por rellenar
 
 ## Pregunta 19 — Evolución mensual con acumulado y media móvil
@@ -248,6 +313,10 @@ Consulta:
 ```
 Resultado:
 
+![Respuesta1](images/P019.png)
+
+
+
 Comentario: por rellenar
 
 ## Pregunta 20 — Cuadro de mando anual por categoría
@@ -259,5 +328,9 @@ Consulta:
 -- por rellenar
 ```
 Resultado:
+
+![Respuesta1](images/P020.png)
+
+
 
 Comentario: por rellenar
