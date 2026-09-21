@@ -134,7 +134,7 @@ WHERE order_id = 10248;
 ```
 Resultado:
 
-![Respuesta5](images/P05.png)
+![Evidencia Pregunta 5](images/P05%20-%20copia%20(3)%20-%20copia.png)
 
 
 
@@ -162,7 +162,7 @@ ORDER BY facturacion DESC;
 ```
 Resultado:
 
-![Respuesta6](images/P06.png)
+![Evidencia Pregunta 6](images/P06%20-%20copia%20(3)%20-%20copia.png)
 
 
 
@@ -186,7 +186,7 @@ ORDER BY num_pedidos ASC, cliente ASC;
 ```
 Resultado:
 
-![Respuesta7](images/P07.png)
+![Evidencia Pregunta 7](images/P07%20-%20copia%20(3)%20-%20copia.png)
 
 
 
@@ -211,7 +211,7 @@ ORDER BY responsable ASC, empleado ASC;
 ```
 Resultado:
 
-![Respuesta8](images/P08.png)
+![Evidencia Pregunta 8](images/P08%20-%20copia%20-%20copia.png)
 
 
 
@@ -245,7 +245,7 @@ ORDER BY grid.category_name ASC, grid.anio ASC;
 ```
 Resultado:
 
-![Respuesta9](images/P09.png)
+![Evidencia Pregunta 9](images/P09%20-%20copia%20-%20copia.png)
 
 
 
@@ -282,7 +282,7 @@ ORDER BY pais ASC;
 ```
 Resultado:
 
-![Respuesta10](images/P010.png)
+![Evidencia Pregunta 10](images/P010%20-%20copia%20-%20copia.png)
 
 
 
@@ -328,7 +328,7 @@ ORDER BY origen ASC, pais ASC;
 ```
 Resultado:
 
-![Respuesta11](images/P011.png)
+![Evidencia Pregunta 11](images/P011%20-%20copia%20-%20copia.png)
 
 
 
@@ -357,7 +357,7 @@ ORDER BY pais ASC;
 ```
 Resultado:
 
-![Respuesta12](images/P012.png)
+![Evidencia Pregunta 12](images/P012%20-%20copia%20-%20copia.png)
 
 
 
@@ -391,7 +391,7 @@ ORDER BY pedidos_realizados DESC;
 ```
 Resultado:
 
-![Respuesta13](images/P013.png)
+![Evidencia Pregunta 13](images/P013%20-%20copia%20-%20copia.png)
 
 Comentario: 
 
@@ -415,7 +415,7 @@ ORDER BY diferencia DESC;
 ```
 Resultado:
 
-![Respuesta14](images/P014.png)
+![Evidencia Pregunta 14](images/P014%20-%20copia%20-%20copia.png)
 
 
 
@@ -454,7 +454,7 @@ LIMIT 15;
 ```
 Resultado:
 
-![Respuesta15](images/P015.png)
+![Evidencia Pregunta 15](images/P015%20-%20copia%20-%20copia.png)
 
 
 
@@ -488,7 +488,7 @@ ORDER BY c.category_name ASC;
 ```
 Resultado:
 
-![Respuesta16](images/P016.png)
+![Evidencia Pregunta 16](images/P016%20-%20copia%20-%20copia.png)
 
 
 
@@ -541,7 +541,7 @@ ORDER BY facturacion_segmento DESC;
 ```
 Resultado:
 
-![Respuesta17](images/P017.png)
+![Evidencia Pregunta 17](images/P017%20-%20copia%20-%20copia.png)
 
 
 
@@ -590,7 +590,7 @@ ORDER BY categoria ASC, posicion_en_categoria ASC;
 ```
 Resultado:
 
-![Respuesta18](images/P018.png)
+![Evidencia Pregunta 18](images/P018%20-%20copia.png)
 
 
 
@@ -635,8 +635,7 @@ ORDER BY mes ASC;
 ```
 Resultado:
 
-![Respuesta19](images/P019.png)
-
+![Evidencia Pregunta 19](images/P019%20-%20copia.png)
 
 
 Comentario: 
@@ -680,7 +679,7 @@ ORDER BY (categoria IS NULL) ASC, total DESC;
 ```
 Resultado:
 
-![Respuesta20](images/P020.png)
+![Evidencia Pregunta 20](images/P020.png)
 
 
 
